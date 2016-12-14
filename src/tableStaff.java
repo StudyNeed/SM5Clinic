@@ -448,8 +448,8 @@ public class tableStaff extends javax.swing.JFrame {
         addItemToComboBox(); 
         addTableData();
         txtDoB.setDateToToday();
-        tableAllStaff.setColumnWidth(1,3,1,2,2,2,3,2,2,2,2,2);
-        tableAdding.setColumnWidth(3,1,2,2,2,3,2,2,2,2,2);
+        tableAllStaff.setColumnWidthRatio(1,3,1,2,2,2,3,2,2,2,2,2);
+        tableAdding.setColumnWidthRatio(3,1,2,2,2,3,2,2,2,2,2);
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
     }//GEN-LAST:event_formWindowOpened

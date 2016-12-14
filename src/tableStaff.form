@@ -435,7 +435,7 @@
               <Properties>
                 <Property name="autoCreateRowSorter" type="boolean" value="true"/>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                  <Table columnCount="12" rowCount="0">
+                  <Table columnCount="10" rowCount="0">
                     <Column editable="true" title="ID" type="java.lang.Object"/>
                     <Column editable="true" title="Name" type="java.lang.Object"/>
                     <Column editable="true" title="Gender" type="java.lang.Object"/>
@@ -444,9 +444,7 @@
                     <Column editable="true" title="Tel" type="java.lang.Object"/>
                     <Column editable="true" title="Email" type="java.lang.Object"/>
                     <Column editable="true" title="Salary" type="java.lang.Object"/>
-                    <Column editable="true" title="PositionID" type="java.lang.Object"/>
                     <Column editable="true" title="Position" type="java.lang.Object"/>
-                    <Column editable="true" title="WorkTypeID" type="java.lang.Object"/>
                     <Column editable="true" title="WorkType" type="java.lang.Object"/>
                   </Table>
                 </Property>
@@ -505,6 +503,7 @@
                     </Column>
                   </TableColumnModel>
                 </Property>
+                <Property name="columnSelectionAllowed" type="boolean" value="true"/>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>

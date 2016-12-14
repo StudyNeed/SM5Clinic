@@ -196,10 +196,11 @@ public class tableStaff extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID", "Name", "Gender", "Date Of Birth", "Address", "Tel", "Email", "Salary", "PositionID", "Position", "WorkTypeID", "WorkType"
+                "ID", "Name", "Gender", "Date Of Birth", "Address", "Tel", "Email", "Salary", "Position", "WorkType"
             }
         ));
         tableAllStaff.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
+        tableAllStaff.setColumnSelectionAllowed(true);
         jScrollPane2.setViewportView(tableAllStaff);
         tableAllStaff.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
 
